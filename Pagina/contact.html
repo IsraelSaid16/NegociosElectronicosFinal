@@ -39,7 +39,7 @@
                          <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
                      </li>
                  </ul>
-                 <div class="header__cart__price">items: 
+                 <div class="header__cart__price">Total: 
                      <span>$150.00</span>
                  </div>
              </div>
@@ -114,8 +114,8 @@
              </div>
          </div>
          <!-- Humberger End -->
-        <!-- Header Section Begin -->
-        <header class="bg-light header">
+         <!-- Header Section Begin -->
+         <header class="bg-light header">
             <div class="header__top">
                 <div class="container">
                     <div class="row">
@@ -151,10 +151,10 @@
                                     </ul>
                                 </div>
                                 <div class="header__top__right__auth">
-                                    <a href="Login.html"><i class="fa fa-user"></i> Iniciar Sesión</a>
+                                    <a href="#"><i class="fa fa-user"></i> Iniciar Sesión</a>
                                 </div>
                                 <div class="header__top__right__auth">
-                                    <a href="Login.html"><i class="fa fa-user"></i> Registrarse</a>
+                                    <a href="#"><i class="fa fa-user"></i> Registrarse</a>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +177,7 @@
                                 <li>
                                     <a href="./shop-grid.html">Tienda</a>
                                 </li>
-                                <li class="active">
+                                <li>
                                     <a href="#">Páginas</a>
                                     <ul class="header__menu__dropdown">
                                         <li>
@@ -197,7 +197,7 @@
                                 <li>
                                     <a href="./blog.html">Blog</a>
                                 </li>
-                                <li>
+                                <li class="active">
                                     <a href="./contact.html">Contactanos</a>
                                 </li>
                             </ul>
@@ -213,7 +213,7 @@
                                     <a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
                                 </li>
                             </ul>
-                            <div class="header__cart__price">item: 
+                            <div class="header__cart__price">Total: 
                                 <span>$150.00</span>
                             </div>
                         </div>
@@ -288,152 +288,92 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="breadcrumb__text">
-                            <h2>Pago</h2>
-                            <div class="breadcrumb__option">
-                                <a href="./index.html">Home</a>
-                                <span>Pago</span>
-                            </div>
+                            <h2>Contactanos</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Breadcrumb Section End -->
-        <!-- Checkout Section Begin -->
-        <section class="border-dark checkout spad">
+        <!-- Contact Section Begin -->
+        <section class="contact spad">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <h6><span class="icon_tag_alt"></span> Tienes algun cupón? <a href="#">Click aquí</a> para ingresar cupon </h6>
-                    </div>
-                </div>
-                <div class="checkout__form">
-                    <h4>Detalles de Facturación</h4>
-                    <form action="#">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-6">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="checkout__input">
-                                            <p>Nombres<span>*</span></p>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="checkout__input">
-                                            <p>Apellidos P<span>*</span></p>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="checkout__input">
-                                            <p>Apellido M<span>*</span></p>
-                                            <input type="text">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="checkout__input">
-                                    <p>Ciudad<span>*</span></p>
-                                    <input type="text">
-                                </div>
-                                <div class="checkout__input">
-                                    <p>Dirección<span>*</span></p>
-                                    <input type="text" placeholder="Calle" class="checkout__input__add">
-                                    <input type="text" placeholder="Apartmento, suite, etc (opcional)">
-                                </div>
-                                <div class="checkout__input">
-                                    <p>Ciudad<span>*</span></p>
-                                    <input type="text">
-                                </div>
-                                <div class="checkout__input">
-                                    <p>Municipio<span>*</span></p>
-                                    <input type="text">
-                                </div>
-                                <div class="checkout__input">
-                                    <p>Codigo Postal<span>*</span></p>
-                                    <input type="number">
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="checkout__input">
-                                            <p>Numero de Telefono<span>*</span></p>
-                                            <input type="number">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="checkout__input">
-                                            <p>Email<span>*</span></p>
-                                            <input type="email">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="checkout__input__checkbox">
-                                    <label for="acc">
-                                        Crear cuenta?
-                                        <input type="checkbox" id="acc">
-                                        <span class="checkmark"></span>
-                                    </label>
-                                </div>
-                                <p>Cree una cuenta ingresando la información a continuación. 
-                                    Si es un cliente recurrente, inicie sesión en la parte superior de la página.</p>
-                                <div class="checkout__input">
-                                    <p>Contraseña<span>*</span></p>
-                                    <input type="password">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="border border-danger checkout__order">
-                                    <h4>Tu pedido</h4>
-                                    <div class="checkout__order__products">Productos 
-                                        <span>Total</span>
-                                    </div>
-                                    <ul>
-                                        <li>Marvel`s Package 
-                                            <span>$355.99</span>
-                                        </li>
-                                        <li>Batman Comic
-                                            <span>$151.99<br><span><span style="font-weight: 400;"><span style="float: none;">$53.99</span><br></span></span></span>
-                                        </li>
-                                        <li>Superman2020</li>
-                                    </ul>
-                                    <div class="checkout__order__subtotal">Subtotal 
-                                        <span>$750.99</span>
-                                    </div>
-                                    <div class="checkout__order__total">Total 
-                                        <span>$750.99</span>
-                                    </div>
-                                    <div class="checkout__input__checkbox">
-                                        <!--<label for="acc-or">
-                                            Create an account?
-                                            <input type="checkbox" id="acc-or">
-                                            <span class="checkmark"></span>
-                                        </label>-->
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt
-                                    ut labore et dolore magna aliqua.</p>
-                                    <div class="checkout__input__checkbox">
-                                        <label for="payment">
-                                            Check Payment
-                                            <input type="checkbox" id="payment">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                    <div class="checkout__input__checkbox">
-                                        <label for="paypal">
-                                            Paypal
-                                            <input type="checkbox" id="paypal">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                    <button type="submit" class="bg-danger site-btn">Realizar Pedido</button>
-                                </div>
-                            </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                        <div class="contact__widget">
+                            <span class="icon_phone"></span>
+                            <h4>Numero</h4>
+                            <p>449288-6868</p>
                         </div>
-                    </form>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                        <div class="contact__widget">
+                            <span class="icon_pin_alt"></span>
+                            <h4>Dirección</h4>
+                            <p>Mi house ,Ags</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                        <div class="contact__widget">
+                            <span class="icon_clock_alt"></span>
+                            <h4>Horario de apertura</h4>
+                            <p>24/7 :o</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 text-center">
+                        <div class="contact__widget">
+                            <span class="icon_mail_alt"></span>
+                            <h4>Email</h4>
+                            <p>Ags_Comics-44@Gmail.com</p>
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!-- Checkout Section End -->
+        <!-- Contact Section End -->
+        <!-- Map Begin -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14808.475998810194!2d-102.2413706!3d21.8914929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x86afb995c91b0013!2sCARNITAS%20CHE%20CU%C3%91AOOO!5e0!3m2!1ses-419!2smx!4v1634519174340!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="map-inside">
+                <i class="icon_pin"></i>
+                <div class="inside-widget">
+                    <h4>Aguascalientes Ags</h4>
+                    <ul>
+                        <li>Telefono: +52 449-508-4504</li>
+                        <li>Direccion: Jardin el Herradero ,Ags&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Map End -->
+        <!-- Contact Form Begin -->
+        <div class="contact-form spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="contact__form__title">
+                            <h2>Dejanos tu mensaje</h2>
+                        </div>
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <input type="text" placeholder="Tu nombre">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <input type="email" placeholder="Tu Email">
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <textarea placeholder="Tu mensaje"></textarea>
+                            <button type="submit" class="bg-danger site-btn text-white">ENVIAR MENSAJE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Contact Form End -->
         <!-- Footer Section Begin -->
         <footer class="footer spad">
             <div class="container">
@@ -442,7 +382,6 @@
                         <div class="footer__about">
                             <div class="footer__about__logo">
                                 <a href="./index.html"></a>
-                                
                             </div>
                             <ul>
                                 <li>Dirección: Av LopezMateos &quot;552 11378 Aguascalientes, Ags&nbsp;</li>
@@ -489,11 +428,10 @@
                                 <input type="text" placeholder="Ingresa tu Email">
                                 <button type="submit" class="bg-danger site-btn">Suscribete</button>
                             </form>
-                            
                             <div class="footer__widget__social">
-                                <a href="https://www.facebook.com/Comixcon-102829132194053"><i class="fa fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/comixcon_stores/"><i class="fa fa-instagram"></i></a>
-                                <a href="https://twitter.com/Comixcon_Store"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
                             </div>
                         </div>
                         <a href="#"></a>
